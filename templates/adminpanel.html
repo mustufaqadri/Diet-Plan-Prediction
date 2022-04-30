@@ -1,0 +1,300 @@
+{% import "bootstrap/wtf.html" as wtf %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('.static', filename='ext/css/bootstrap.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('.static', filename='ext/css/bootstrap.min.css')}}">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="{{url_for('.static', filename='ext/css/mdb.min.css')}}">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="{{url_for('.static', filename='ext/css/style.css')}}">
+    <!-- MDBootstrap Datatables  -->
+    <link href="{{url_for('.static', filename='ext/css/addons/datatables.min.css')}}" rel="stylesheet">
+    <title>Diet Plan</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:maroon !important;">
+        <a class="navbar-brand" href="#">Diet Plan!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('adminpanel') }}">Dashboard <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('allmsgs') }}">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> | </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('logout') }}">Log Out</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log Out</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row pt-5">
+            <div class="col">
+                <center>
+                    <div class="col-sm-12">
+                        <img src="{{url_for('.static', filename='img/dp-2.jpg')}}" height="400" width=1200
+                            style="border-radius: 30px;">
+                    </div>
+                    <br />
+                    <h1 class="page-header">Welcome!</h1>
+                    <br>
+                    <br>
+                    <h3>Manage Food Items</h3>
+                    <hr class="new1" />
+                    <br>
+                </center>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+
+            </div>
+            <div class="col-lg-6">
+                <form method="POST" action="/adminpanel">
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-6">
+                            {{ addform.hidden_tag() }}
+                            {{ wtf.form_field(addform.foodname) }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Category) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Calories) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.TotalFat) }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Sodium) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Potassium) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.TotalCarbs) }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.DietFiber) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Sugar) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Protein) }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.VitA) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.VitC) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Calcium) }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Iron) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.SatFat) }}
+                        </div>
+                        <div class="form-group col-md-2">
+                            {{ wtf.form_field(addform.Cholestrol) }}
+                        </div>
+                    </div>
+                    <center>
+                        <button type="submit" class="btn" style="background-color:maroon !important;color:white">Add Food</button>
+                    </center>
+                </form>
+                <br />
+                <hr class="new1" />
+                <center>
+                    <h4>Delete Food Item</h4>
+                </center>
+                <form method="POST" action="/delfood">
+                    <div class="form-row">
+                        <div class="form-group col-md-3"></div>
+                        <div class="form-group col-md-6">
+                            {{ delform.hidden_tag() }}
+                            {{ wtf.form_field(delform.foodname) }}
+                        </div>
+                    </div>
+                    <center>
+                        <button type="submit" class="btn" style="background-color:maroon !important;color:white">Delete Food</button>
+                    </center>
+                </form>
+
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col">
+                <center>
+                    <h4>All Food Items</h4>
+                </center>
+                <hr class="new1" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <table id="dtBasicExample" class="table table-striped table-bordered table-responsive-lg"
+                    cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th class="th-sm">Food
+                            </th>
+                            <th class="th-sm">Category
+                            </th>
+                            <th class="th-sm">Calories
+                            </th>
+                            <th class="th-sm">Total Fat
+                            </th>
+                            <th class="th-sm">Sodium
+                            </th>
+                            <th class="th-sm">Potassium
+                            </th>
+                            <th class="th-sm">Total Carbo-hydrates
+                            </th>
+                            <th class="th-sm">Dietary Fiber
+                            </th>
+                            <th class="th-sm">Sugar
+                            </th>
+                            <th class="th-sm">Protein
+                            </th>
+                            <th class="th-sm">Vitamin A
+                            </th>
+                            <th class="th-sm">Vitamin C
+                            </th>
+                            <th class="th-sm">Calcium
+                            </th>
+                            <th class="th-sm">Iron
+                            </th>
+                            <th class="th-sm">Saturated Fat
+                            </th>
+                            <th class="th-sm">Cholestrol
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr> -->
+
+                            <!-- <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td> -->
+                            <!-- <td id="fname"></td>
+                            <td id="fcategory"></td>
+                            <td id="fquantity"></td> -->
+                        <!-- </tr> -->
+                        {% for x in food %}
+                            <tr>
+                                <td>{{ x.Food }}</td>
+                                <td>{{ x.Category }}</td>
+                                <td>{{ x.Calories }}</td>
+                                <td>{{ x["Total Fat"] }}"</td>
+                                <td>{{ x.Sodium }}</td>
+                                <td>{{ x.Potassium }}</td>
+                                <td>{{ x["Total Carbo-hydrate"] }}</td>
+                                <td>{{ x["Dietary Fiber"] }}</td>
+                                <td>{{ x.Sugars }}</td>
+                                <td>{{ x.Protein }}</td>
+                                <td>{{ x["Vitamin A"] }}</td>
+                                <td>{{ x["Vitamin C"] }}</td>
+                                <td>{{ x.Calcium }}</td>
+                                <td>{{ x.Iron }}</td>
+                                <td>{{ x["Saturated Fat"] }}</td>
+                                <td>{{ x["Chole-sterol"] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/addons/datatables.min.js')}}"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/jquery.min.js')}}"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/popper.min.js')}}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/bootstrap.min.js')}}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/mdb.min.js')}}"></script>
+    <!-- Your custom scripts (optional) -->
+    <script>
+        $(document).ready(function () {
+            $('#dtBasicExample').DataTable
+                (
+                    {
+                        // "pageLength": 10,
+                    }
+                );
+            $('.dataTables_length').addClass('bs-select');
+        });
+    </script>
+    <!-- Fields Generator -->
+
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="{{url_for('.static', filename='ext/js/addons/datatables.min.js')}}"></script>
+</body>
+
+</html>

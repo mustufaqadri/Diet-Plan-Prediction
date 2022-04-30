@@ -1,0 +1,62 @@
+Food,Category,Calories,Total Fat,Sodium,Potassium,Total Carbo-hydrate,Dietary Fiber,Sugars,Protein,Vitamin A,Vitamin C,Calcium,Iron,Saturated Fat,Chole-sterol
+"Asparagus, 5 spears (93 g/3.3 oz)",Vegetables,20,0,0,230,4,2,2,2,10,15,2,2,0,0
+"Bell Pepper, 1 medium (148 g/5.3 oz)",Vegetables,25,0,40,220,6,2,4,1,4,190,2,4,0,0
+"Broccoli, 1 medium stalk (148 g/5.3 oz)",Vegetables,45,0.5,80,460,8,3,2,4,6,220,6,6,0,0
+"Carrot, 1 carrot, 7"" long, 1 1/4"" diameter (78 g/2.8 oz)",Vegetables,30,0,60,250,7,2,5,1,110,10,2,2,0,0
+"Cauliflower, 1/6 medium head (99 g/3.5 oz)",Vegetables,25,0,30,270,5,2,2,2,0,100,2,2,0,0
+"Celery, 2 medium stalks (110 g/3.9 oz)",Vegetables,15,0,115,260,4,2,2,0,10,15,4,2,0,0
+"Cucumber, 1/3 medium (99 g/3.5 oz)",Vegetables,10,0,0,140,2,1,1,1,4,10,2,2,0,0
+"Green (Snap) Beans, 3/4 cup cut (83 g/3.0 oz)",Vegetables,20,0,0,200,5,3,2,1,4,10,4,2,0,0
+"Green Cabbage, 1/12 medium head (84 g/3.0 oz)",Vegetables,25,0,20,190,5,2,3,1,0,70,4,2,0,0
+"Green Onion, 1/4 cup chopped (25 g/0.9 oz)",Vegetables,10,0,10,70,2,1,1,0,2,8,2,2,0,0
+"Iceberg Lettuce, 1/6 medium head (89 g/3.2 oz)",Vegetables,10,0,10,125,2,1,2,1,6,6,2,2,0,0
+"Leaf Lettuce, 1 1/2 cups shredded (85 g/3.0 oz)",Vegetables,15,0,35,170,2,1,1,1,130,6,2,4,0,0
+"Mushrooms, 5 medium (84 g/3.0 oz)",Vegetables,20,0,15,300,3,1,0,3,0,2,0,2,0,0
+"Onion, 1 medium (148 g/5.3 oz)",Vegetables,45,0,5,190,11,3,9,1,0,20,4,4,0,0
+"Potato, 1 medium (148 g/5.3 oz)",Vegetables,110,0,0,620,26,2,1,3,0,45,2,6,0,0
+"Radishes, 7 radishes (85 g/3.0 oz)",Vegetables,10,0,55,190,3,1,2,0,0,30,2,2,0,0
+"Summer Squash, 1/2 medium (98 g/3.5 oz)",Vegetables,20,0,0,260,4,2,2,1,6,30,2,2,0,0
+"Sweet Corn, kernels from 1 medium ear (90 g/3.2 oz)",Vegetables,90,2.5,0,250,18,2,5,4,2,10,0,2,0,0
+"Sweet Potato, 1 medium, 5"" long, 2"" diameter (130 g/4.6 oz)",Vegetables,100,0,70,440,23,4,7,2,120,30,4,4,0,0
+"Tomato, 1 medium (148 g/5.3 oz)",Vegetables,25,0,20,340,5,1,3,1,20,40,2,4,0,0
+"Apple, 1 large (242 g/8 oz)",Fruits,130,0,0,260,34,5,25,1,2,8,2,2,0,0
+"Avocado, California,1/5 medium (30 g/1.1 oz)",Fruits,50,4.5,0,140,3,1,0,1,0,4,0,2,0,0
+"Banana, 1 medium (126 g/4.5 oz)",Fruits,110,0,0,450,30,3,19,1,2,15,0,2,0,0
+"Cantaloupe, 1/4 medium (134 g/4.8 oz)",Fruits,50,0,20,240,12,1,11,1,120,80,2,2,0,0
+"Grapefruit, 1/2 medium, (154 g/5.5 oz)",Fruits,60,0,0,160,15,2,11,1,35,100,4,0,0,0
+"Grapes, 3/4 cup (126 g/4.5 oz)",Fruits,90,0,15,240,23,1,20,0,0,2,2,0,0,0
+Honeydew Melon 1/10 medium melon  (134 g/4.8 oz),Fruits,50,0,30,210,12,1,11,1,2,45,2,2,0,0
+"Kiwifruit, 2 medium (148 g/5.3 oz)",Fruits,90,1,0,450,20,4,13,1,2,240,4,2,0,0
+"Lemon, 1 medium (58 g/2.1 oz)",Fruits,15,0,0,75,5,2,2,0,0,40,2,0,0,0
+"Lime, 1 medium (67 g/2.4 oz)",Fruits,20,0,0,75,7,2,0,0,0,35,0,0,0,0
+"Nectarine, 1 medium (140 g/5.0 oz)",Fruits,60,0.5,0,250,15,2,11,1,8,15,0,2,0,0
+"Orange, 1 medium (154 g/5.5 oz)",Fruits,80,0,0,250,19,3,14,1,2,130,6,0,0,0
+"Peach, 1 medium (147 g/5.3 oz)",Fruits,60,0.5,0,230,15,2,13,1,6,15,0,2,0,0
+"Pear, 1 medium (166 g/5.9 oz)",Fruits,100,0,0,190,26,6,16,1,0,10,2,0,0,0
+"Pineapple, 2 slices, 3"" diameter,3/4"" thick",Fruits,50,0,10,120,13,1,10,1,2,50,2,2,0,0
+"Plums, 2 medium (151 g/5.4 oz)",Fruits,70,0,0,230,19,2,16,1,8,10,0,2,0,0
+"Strawberries, 8 medium (147 g/5.3 oz)",Fruits,50,0,0,170,11,2,8,1,0,160,2,2,0,0
+Sweet Cherries 21 cherries\1 cup,Fruits,100,0,0,350,26,1,16,1,2,15,2,2,0,0
+"Tangerine, 1 medium (109 g/3.9 oz)",Fruits,50,0,0,160,13,2,9,1,6,45,4,0,0,0
+"Watermelon, 1/18 medium melon; 2 cups diced pieces(280 g/",Fruits,80,0,0,270,21,1,20,1,30,25,2,4,0,0
+Blue Crab,Seafood,100,1,330,300,0,0,0,20,0,4,10,4,0,32
+Catfish,Seafood,130,6,40,230,0,0,0,17,0,0,0,0,10,17
+"Clams, about 12 small",Seafood,110,1.5,95,470,6,0,0,17,10,0,8,30,0,27
+Cod,Seafood,90,1,65,460,0,0,0,20,0,2,2,2,0,17
+Flounder/Sole,Seafood,100,1.5,100,390,0,0,0,19,0,0,2,0,0,18
+Haddock,Seafood,100,1,85,340,0,0,0,21,2,0,2,6,0,23
+Halibut,Seafood,120,2,60,500,0,0,0,23,4,0,2,6,0,13
+Lobster,Seafood,80,0.5,320,300,1,0,0,17,2,0,6,2,0,20
+Ocean Perch,Seafood,110,2,95,290,0,0,0,21,0,2,10,4,3,15
+Orange Roughy,Seafood,80,1,70,340,0,0,0,16,2,0,4,2,0,7
+"Oysters, about 12 medium",Seafood,100,4,300,220,6,0,0,10,0,6,6,45,5,27
+Pollock,Seafood,90,1,110,370,0,0,0,20,2,0,0,2,0,27
+Rainbow Trout,Seafood,140,6,35,370,0,0,0,20,4,4,8,2,10,18
+Rockfish,Seafood,110,2,70,440,0,0,0,21,4,0,2,2,0,13
+"Salmon, Atlantic/Coho/Sockeye /Chinook",Seafood,200,10,55,430,0,0,0,24,4,4,2,2,10,23
+"Salmon, Chum/Pink",Seafood,130,4,65,420,0,0,0,22,2,0,2,4,5,23
+"Scallops, about 6 large or 14 small",Seafood,140,1,310,430,5,0,0,27,2,0,4,14,0,22
+Shrimp,Seafood,100,1.5,240,220,0,0,0,21,4,4,6,10,0,57
+Swordfish,Seafood,120,6,100,310,0,0,0,16,2,2,0,6,8,13
+Tilapia,Seafood,110,2.5,30,360,0,0,0,22,0,2,0,2,5,25
+Tuna,Seafood,130,1.5,40,480,0,0,0,26,2,2,2,4,0,17
